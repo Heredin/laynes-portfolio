@@ -1,0 +1,86 @@
+{
+    "buttons" :{
+        "cv" :"Descargar CV",
+        "projects" :"Más Proyectos"
+    },
+  "common": {
+        "en": "Inglés",
+        "es": "Español",
+        "en_list": "EN",
+        "es_list": "ES",
+        "loading_text": "Cargando"
+      },
+      "footer":{
+        "followme": "Sígueme",
+        "developed":"Desarrollado por"
+      },
+      "header":{
+        "projects": "Proyectos",
+        "about" : "Acerca de",
+        "contact" :"Contacto",
+        "hire" : "Contrátame"
+      },
+      "links": {
+        "thanks": "/gracias",
+        "phone": "tel:9983362309",
+        "instagram": "https://www.instagram.com/arvore.cancun/",
+        "facebook": "https://www.facebook.com/Arvorecancun",
+        "brokers": "/registro-brokers-externos",
+        "whatsapp":
+          "https://api.whatsapp.com/send?phone=9983362309&text=Hola, Quisiera mas informacion sobre Árvore!",
+        "mail": "mailto:info{'@'}arvorecancun.com",
+        "contacto": "#contacto",
+        "location": "#ubicacion",
+        "amenities": "#amenidades",
+        "departments": "#departamentos",
+        "project": "#proyecto",
+        "home": "/"
+      },
+      "menu": {
+        "location": "Ubicación",
+        "proyecto": "proyecto",
+        "departmets": "departamentos",
+        "amenities": "amenidades",
+        "contact": "contacto",
+        "news": "Noticias",
+        "inventory": "Inventario"
+      },
+      "welcome" :{
+         "greeting" : "Hola, Soy Heredin",
+         "position" : "Un Desarrollador Full-Stack Entusiasta"
+      },
+
+      "forms" : {
+        "find":"¿Cómo encontrarme?",
+        "contact" :"Formulario de Contacto",
+        "name_label" : "Nombre Completo",
+        "mail_label": "Correo electrónico",
+        "phone_label": "Teléfono",
+        "subject_label": "Asunto",
+        "message_label": "Mensaje",
+        "name_placeholder": "Nombre Completo",
+        "mail_placeholder": "Correo electrónico",
+        "phone_placeholder": "Teléfono",
+        "subject_placeholder": "Asunto",
+        "message": "Mensaje",
+        "message_placeholder": "Estoy interesado en ",
+        "successMessage":
+          "Correo envíado correctamente. Pronto nos contactaremos contigo",
+        "failMessage": "Inténtelo más tarde",
+        "default_message": "Estoy interesado en",
+        "form_send": "Enviar formulario"
+      },
+      "validations": {
+        "input_required": "El campo es requerido",
+        "name_required": "Nombre es requerido",
+        "number_required": "Teléfono es requerido",
+        "subject_required": "Asunto es requerido",
+        "digits_space_required": "Ingrese un número de teléfono válido",
+        "only_digits_required": "Sólo se permiten números",
+        "digits_required": "Ingrese su número a 10 dígitos",
+        "email_required": "El correo es requerido",
+        "no_valid_email": "El correo no es válido",
+        "message_required": "El mensaje es requerido",
+        "id_select_required": "Selecciona una opción"
+      }
+    }

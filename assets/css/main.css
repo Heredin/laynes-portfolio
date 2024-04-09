@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "OptimaLTStd-DemiBold";
+    font-weight: 500;
+    src: url("/static/fonts/Optima/OptimaLTStd-DemiBold.ttf") format("truetype");
+    src: url("/static/fonts/Optima/OptimaLTStd-DemiBold.eot") format("embedded-opentype");
+    src: url("/static/fonts/Optima/OptimaLTStd-DemiBold.svg") format("svg");
+    src: url("/static/fonts/Optima/OptimaLTStd-DemiBold.woff") format("woff");
+    src: url("/static/fonts/Optima/OptimaLTStd-DemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    font-weight: normal;
+    src: url("/static/fonts/Poppins-Regular/Poppins-Regular.ttf") format("truetype");
+    src: url("/static/fonts/Poppins-Regular/Poppins-Regular.eot") format("embedded-opentype");
+    src: url("/static/fonts/Poppins-Regular/Poppins-Regular.svg") format("svg");
+    src: url("/static/fonts/Poppins-Regular/Poppins-Regular.woff") format("woff");
+    src: url("/static/fonts/Poppins-Regular/Poppins-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Pacifico-Regular";
+    font-weight: normal;
+    src: url("/static/fonts/Pacifico-Regular/Pacifico-Regular.ttf") format("truetype");
+    src: url("/static/fonts/Pacifico-Regular/Pacifico-Regular.eot") format("embedded-opentype");
+    src: url("/static/fonts/Pacifico-Regular/Pacifico-Regular.svg") format("svg");
+    src: url("/static/fonts/Pacifico-Regular/Pacifico-Regular.woff") format("woff");
+    src: url("/static/fonts/Pacifico-Regular/Pacifico-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Sk-Modernist-Bold";
+    font-weight: bold;
+    src: url("/static/fonts/Sk-Modernist-Bold/Sk-Modernist-Bold.ttf") format("truetype");
+    src: url("/static/fonts/Sk-Modernist-Bold/Sk-Modernist-Bold.eot") format("embedded-opentype");
+    src: url("/static/fonts/Sk-Modernist-Bold/Sk-Modernist-Bold.svg") format("svg");
+    src: url("/static/fonts/Sk-Modernist-Bold/Sk-Modernist-Bold.woff") format("woff");
+    src: url("/static/fonts/Sk-Modernist-Bold/Sk-Modernist-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Sk-Modernist-Regular";
+    font-weight: 400;
+    src: url("/static/fonts/Sk-Modernist-Regular/Sk-Modernist-Regular.ttf") format("truetype");
+    src: url("/static/fonts/Sk-Modernist-Regular/Sk-Modernist-Regular.eot") format("embedded-opentype");
+    src: url("/static/fonts/Sk-Modernist-Regular/Sk-Modernist-Regular.svg") format("svg");
+    src: url("/static/fonts/Sk-Modernist-Regular/Sk-Modernist-Regular.woff") format("woff");
+    src: url("/static/fonts/Sk-Modernist-Regular/Sk-Modernist-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    font-weight: 400;
+    src: url("/static/fonts/Raleway-Regular/Raleway-Regular.ttf") format("truetype");
+    src: url("/static/fonts/Raleway-Regular/Raleway-Regular.eot") format("embedded-opentype");
+    src: url("/static/fonts/Raleway-Regular/Raleway-Regular.svg") format("svg");
+    src: url("/static/fonts/Raleway-Regular/Raleway-Regular.woff") format("woff");
+    src: url("/static/fonts/Raleway-Regular/Raleway-Regular.woff2") format("woff2");
+}
+
+@media (min-width: 2560px) {
+
+    .section-container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1920px) and (max-width: 2559px) {
+
+    .section-container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1511px) and (max-width: 1919px) {
+
+    .section-container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1510px) {
+
+    .section-container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .section-container {
+        width: 88%;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-container {
+        width: 88%;
+    }
+
+}

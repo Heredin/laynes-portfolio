@@ -1,0 +1,67 @@
+.vue-tel-input {
+    border: 0;
+    border-bottom: 1px solid #4b5563;
+
+}
+
+.vue-tel-input:focus-within,
+.vue-tel-input:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #4b5563;
+}
+
+.input-contact {
+    border-bottom: 1px solid #4b5563;
+    background-color: transparent;
+}
+
+.portfolioForm>>>.vti__dropdown-list,
+.portfolioForm>>>.vti__selection,
+.portfolioForm>>>.vti__dropdown.open,
+.portfolioForm>>>.vti__dropdown-item.highlighted {
+    @apply bg-secondary-light dark:bg-secondary-dark;
+}
+
+.vue-tel-input>>>input.vti__input {
+    background: transparent;
+}
+
+.vue-tel-input>>>.vti__dropdown:hover {
+    background-color: transparent;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #102d44 inset !important;
+}
+
+.text-alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+}
+
+.alerts-center {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.vue-tel-input>>>input.vti__input {
+    background: transparent;
+}
+
+.portfolioForm input::placeholder,
+.portfolioForm input::-webkit-input-placeholder,
+.portfolioForm>>>.vti__input::placeholder,
+.portfolioForm>>>.vti__input::-webkit-input-placeholder {}
+
+.portfolioForm>>>.vti__dropdown {
+    padding-left: 0em;
+}
+
+.border-red-500 {
+    border-color: rgba(239, 68, 68, var(--tw-border-opacity)) !important;
+}

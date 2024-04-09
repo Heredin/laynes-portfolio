@@ -1,0 +1,85 @@
+{
+    "buttons" :{
+      "cv" :"Download CV",
+      "projects" : "More Projects"
+      },    
+  "common": {
+        "en": "Inglés",
+        "es": "Español",
+        "en_list": "EN",
+        "es_list": "ES",
+        "loading_text": "Cargando"
+      },
+      "footer":{
+        "followme": "Follow me",
+        "developed":"Developed by"
+      },
+      "header":{
+        "projects": "Projects",
+        "about" : "About Me",
+        "contact" :"Contact",
+        "hire" : "Hire Me"
+      },
+      "links": {
+        "thanks": "/gracias",
+        "phone": "tel:9983362309",
+        "instagram": "https://www.instagram.com/arvore.cancun/",
+        "facebook": "https://www.facebook.com/Arvorecancun",
+        "brokers": "/registro-brokers-externos",
+        "whatsapp":
+          "https://api.whatsapp.com/send?phone=9983362309&text=Hola, Quisiera mas informacion sobre Árvore!",
+        "mail": "mailto:info{'@'}arvorecancun.com",
+        "contacto": "#contacto",
+        "location": "#ubicacion",
+        "amenities": "#amenidades",
+        "departments": "#departamentos",
+        "project": "#proyecto",
+        "home": "/"
+      },
+      "menu": {
+        "location": "Ubicación",
+        "proyecto": "proyecto",
+        "departmets": "departamentos",
+        "amenities": "amenidades",
+        "contact": "contacto",
+        "news": "Noticias",
+        "inventory": "Inventario"
+      },
+      "welcome" :{
+        "greeting" : "Hi, I am Heredin",
+        "position" : "A Enthusiast Full-Stack Developer"
+     },
+     "forms" : {
+      "find":"How to find me?",
+      "contact" :"Contact Form",
+      "name_label" : "Full Name",
+      "mail_label": "E-mail",
+      "phone_label": "Phone",
+      "subject_label": "Subject",
+      "message_label": "Message",
+      "name_placeholder": "Full Name",
+      "mail_placeholder": "E-mail",
+      "phone_placeholder": "Phone",
+      "subject_placeholder": "Subject",
+      "message": "Message",
+      "message_placeholder": "I am interested in",
+      "successMessage":
+        "Mail sent successfully. We will contact you soon",
+      "failMessage": "Try again later",
+      "default_message": "I am interested in",
+      "form_send": "Send Form"
+    },
+    "validations": {
+      "input_required": "The field is required",
+      "name_required": "Full Name is required",
+      "number_required": "Phone is required",
+      "subject_required": "Subject es required",
+      "digits_space_required": "Please enter a valid phone number",
+      "only_digits_required": "Only numbers allowed",
+      "digits_required": "Enter your 10 digit number",
+      "email_required": "E-mail is required",
+      "no_valid_email": "The E-mail is not valid",
+      "message_required": "The message is required",
+      "id_select_required": "Select an option"
+    }
+    }
