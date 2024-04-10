@@ -47,7 +47,7 @@ export default {
     // Options
           //to make it seo friendly remove below line and add baseUrl option to production domain
           detectBrowserLanguage: false,
-          baseUrl: "http://localhost:3000/",
+          baseUrl: process.env.baseUrl,
           lazy: false,
           strategy: "prefix_except_default",
           locales: [

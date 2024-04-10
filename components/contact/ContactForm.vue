@@ -197,7 +197,7 @@ export default {
   <!-- Contact form -->
   <div class="portfolioForm w-full md:w-1/2">
     <div
-      class="leading-loose max-w-xl m-4 p-7 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
+      class="leading-loose max-w-xl my-4 lg:m-4 p-7 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
     >
       <p
         class="font-Sk-Modernist-Regular text-primary-dark dark:text-primary-light text-2xl mb-8"
