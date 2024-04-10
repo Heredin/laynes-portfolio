@@ -25,7 +25,10 @@
         "whatsapp":
           "https://api.whatsapp.com/send?phone=529983929076&text=Hola, estoy interesado en tus servicios",
         "project": "#proyecto",
-        "home": "/"
+        "home": "/",
+        "projects":"/projects",
+        "about":"/about",
+        "contact":"/contact"
       },
       "menu": {
         "location": "Ubicación",

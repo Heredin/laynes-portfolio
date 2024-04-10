@@ -52,7 +52,7 @@ export default {
       <div class="flex justify-between items-center sm:px-0">
         <!-- Header logos -->
         <div>
-          <NuxtLink to="/">
+          <NuxtLink :to="$t('links.home')">
             <div>
               <h3
                 class="block font-Pacifico-Regular projectTitle text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light"

@@ -21,11 +21,14 @@
         "hire" : "Hire Me"
       },
       "links": {
-        "thanks": "/gracias",
+        "thanks": "/en/gracias",
         "whatsapp":
           "https://api.whatsapp.com/send?phone=529983929076&text=Hello, I'm interested in your services",
         "project": "#proyecto",
-        "home": "/"
+        "home": "/en",
+        "projects":"/en/projects",
+        "about":"/en/about",
+        "contact":"/en/contact"
       },
       "menu": {
         "location": "Ubicación",
