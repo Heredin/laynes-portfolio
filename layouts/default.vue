@@ -18,15 +18,36 @@
       class="flex space-x-2 mr-8 mb-6 right-0 bottom-0 z-50 fixed items-center sm:space-x-4"
     >
       <BackToTop />
+      <whatsapp-button />
     </div>
   </div>
 </template>
 
-<script>
+<script lang="ts">
+const route = useRoute();
+useHead({
+  //title: this.$t("seo.title"),
+  title: "Portafolio de Laynes",
+  meta: [
+    {
+      property: "og:title",
+      // content: this.$t("seo.content"),
+      content: "Desarrollador Web Full-Stack con 3 años de experiencia",
+    },
+    {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1",
+    },
+    {
+      charset: "utf-8",
+    },
+  ],
+});
 import feather from "feather-icons";
 import TheHeader from "~/components/shared/TheHeader.vue";
 import TheFooter from "~/components/shared/TheFooter.vue";
 import BackToTop from "~/components/BackToTop.vue";
+import WhatsappButton from "~/components/reusable/WhatsappButton.vue";
 export default {
   data: () => {
     return {
@@ -36,7 +57,7 @@ export default {
   mounted() {
     feather.replace();
   },
-  components: { TheFooter, BackToTop, TheHeader },
+  components: { TheFooter, BackToTop, TheHeader, WhatsappButton },
 };
 </script>
 

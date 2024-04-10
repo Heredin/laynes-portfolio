@@ -381,7 +381,7 @@ export default {
               <div class="flex">
                 <div class="py-1">
                   <img
-                    src="https://res.cloudinary.com/du9ubuanb/image/upload/v1683831991/iconalertib_wqmmq2.png"
+                    src="https://res.cloudinary.com/dl1yzz0zx/image/upload/v1712717299/My%20Portfolio/icons/iconalert_nokeyu.png"
                     alt=""
                   />
                 </div>

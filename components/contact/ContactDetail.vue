@@ -28,7 +28,6 @@ export default {
             :href="contact.link"
             :target="contact.target"
             class="text-lg mb-4 text-ternary-dark dark:text-ternary-light hover:underline cursor-pointer"
-            aria-label="Website and Phone"
           >
             {{ contact.name }}
           </a>

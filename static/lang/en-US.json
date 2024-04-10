@@ -22,28 +22,21 @@
       },
       "links": {
         "thanks": "/gracias",
-        "phone": "tel:9983362309",
-        "instagram": "https://www.instagram.com/arvore.cancun/",
-        "facebook": "https://www.facebook.com/Arvorecancun",
-        "brokers": "/registro-brokers-externos",
         "whatsapp":
-          "https://api.whatsapp.com/send?phone=9983362309&text=Hola, Quisiera mas informacion sobre Árvore!",
-        "mail": "mailto:info{'@'}arvorecancun.com",
-        "contacto": "#contacto",
-        "location": "#ubicacion",
-        "amenities": "#amenidades",
-        "departments": "#departamentos",
+          "https://api.whatsapp.com/send?phone=529983362309&text=Hello, I'm interested in your services",
         "project": "#proyecto",
         "home": "/"
       },
       "menu": {
         "location": "Ubicación",
         "proyecto": "proyecto",
-        "departmets": "departamentos",
-        "amenities": "amenidades",
         "contact": "contacto",
         "news": "Noticias",
         "inventory": "Inventario"
+      },
+      "seo" :{
+        "title":"Laynes Portfolio",
+        "content":"Full-Stack Web Developer with 3 years of experience"
       },
       "welcome" :{
         "greeting" : "Hi, I am Heredin",

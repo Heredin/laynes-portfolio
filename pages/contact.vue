@@ -25,7 +25,7 @@ export default {
         },
         {
           id: 3,
-          name: "Col. Lázaro Cárdenas, Mpio Chicomuselo, Chis México",
+          name: "Chicomuselo, Chis México",
           icon: "map-pin",
           link: "https://maps.app.goo.gl/A84bg35xawyEU18z6",
           target: "_blank",
