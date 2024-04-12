@@ -60,10 +60,16 @@ export default {
         alt="Developer Dark"
       />
       <img
-        v-else
+        v-else-if="$colorMode.value == 'light'"
         class="rounded-full"
         src="https://res.cloudinary.com/dl1yzz0zx/image/upload/v1712120799/My%20Portfolio/Home/here_cancun_cquyly.jpg"
         alt="Developer Light"
+      />
+      <img
+        class="rounded-full"
+        v-else
+        src="https://res.cloudinary.com/dl1yzz0zx/image/upload/v1712117167/My%20Portfolio/Home/here_comi_qil7to.jpg"
+        alt="Developer Dark"
       />
     </div>
   </section>
