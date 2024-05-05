@@ -1,0 +1,30 @@
+export default defineEventHandler(async (event) => {
+    const config = useRuntimeConfig()
+    const projectSlug = event.context.params.slug
+    try {
+        const data = await $fetch(
+            `${config.apiBaseUrl}projects?populate=*&filters[slug][$eq]=${projectSlug}`,
+            {
+                method: "GET",
+                headers: {
+                    Authorization:
+                        `Bearer ${config.apiKey}`,
+                },
+            }
+        )
+        console.log(data)
+        return data
+    } catch (error) {
+        console.error(error);
+        return null;
+    }
+    /*  const { query, page } = getQuery(event);
+      const config = useRuntimeConfig();
+      //?filters[name][$contains]=John
+      return $fetch(`${config.apiBaseUrl}/projects${query}`, {
+          method: "GET",
+          headers: {
+              "Authorization": `Bearer ${config.apiKey}`
+          }
+      })*/
+})

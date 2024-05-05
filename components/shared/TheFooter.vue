@@ -1,5 +1,4 @@
 <script>
-import { mapState } from "vuex";
 import feather from "feather-icons";
 import FooterCopyright from "./FooterCopyright.vue";
 import socialData from "~/mixins.js/socialData.js";

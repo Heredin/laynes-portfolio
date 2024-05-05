@@ -4,6 +4,13 @@ export default {
   colorMode: {
     classSuffix: "",
   },
+  runtimeConfig:{
+    apiKey:process.env.apiKey,
+    apiBaseUrl:process.env.apiBaseUrl,
+    public: {
+    galleryBaseUrl: process.env.galleryBaseUrl
+    }
+  },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   postcss: {

@@ -1,18 +1,9 @@
-<script>
-import PortfolioBanner from "~/components/shared/PortfolioBanner.vue";
-import Button from "~/components/reusable/Button.vue";
-import ProjectsGrid from "~/components/projects/ProjectsGrid.vue";
-export default {
-  scrollToTop: true,
-  components: { PortfolioBanner, ProjectsGrid, Button },
-};
-</script>
+<script setup></script>
 
 <template>
   <div class="section-container mx-auto">
-    <PortfolioBanner />
-
-    <!--<ProjectsGrid />-->
+    <SharedPortfolioBanner />
+    <ProjectsGrid class="pt-10 sm:pt-20 md:pt-24" />
 
     <!-- View more projects button 
     <div class="mt-5 sm:mt-14 flex justify-center">

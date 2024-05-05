@@ -1,4 +1,7 @@
 {
+  "about" : {
+    "info": "Hello!, I'm Heredin Velázquez. I'm Full-Stack Developer with 3 years of experience Experience with good knowledge in Front-end and Backend. I have Web Development skills for a challenging position in a modern and professional company or challenging projects, I am always available to learn new things and improve as a professional."
+  },
     "buttons" :{
       "cv" :"Download CV",
       "projects" : "More Projects"
@@ -64,6 +67,14 @@
       "failMessage": "Try again later",
       "default_message": "I am interested in",
       "form_send": "Send Form"
+    },
+    "projects" :{
+      "alert": "This field is required",
+      "search": "Search",
+      "search_input": "Search Project ...",
+      "search_project": "Search project by name",
+      "see_project":"See project",
+      "title" :"My Projects"
     },
     "validations": {
       "input_required": "The field is required",

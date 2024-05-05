@@ -1,5 +1,4 @@
 <script>
-import { mapState } from "vuex";
 import HireMeModal from "../HireMeModal.vue";
 import TheNavigation from "./TheNavigation.vue";
 

@@ -32,11 +32,7 @@ export default {
       <p
         class="font-Raleway-Regular mb-4 text-ternary-dark dark:text-ternary-light text-lg text-justify"
       >
-        ¡Hola!, Soy Heredin Velázquez. Desarrollador Full-Stack con 3 años de
-        experiencia con buenos conocimientos en Front-end y Backend. Tengo
-        habilidades en el desarrollo web para una posición estimulante en una
-        compañia moderna y profesional o proyectos desafiantes, siempre estoy
-        disponible a aprender cosas nuevas e ir mejorando como profesional.
+        {{ $t("about.info") }}
       </p>
       <!-- component -->
 
