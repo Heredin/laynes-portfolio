@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const config = useRuntimeConfig();
+//const config = useRuntimeConfig();
 import type { PropType } from "vue";
 import type { Project } from "~~/types/Project";
 const props = defineProps({
@@ -22,11 +22,10 @@ const formatDate = (date, lang) => {
     <div
       class="max-w-sm relative z-20 bg-white rounded-md shadow-md dark:bg-secondary-dark dark:border-gray-700 transform sm:hover:translate-x-6 sm:hover:-translate-y-6 sm:delay-50 sm:duration-100"
     >
-      <a :href="`/project/${project.attributes.slug}`">
+      <a :href="`/project/${project?.attributes.slug}`">
         <img
           class="rounded-t-lg"
           :src="
-            config.public.galleryBaseUrl +
             project?.attributes.featured_image.data.attributes.formats.large.url
           "
           :alt="
@@ -36,7 +35,7 @@ const formatDate = (date, lang) => {
       </a>
       <div class="p-5">
         <a
-          :href="`/project/${project.attributes.slug}`"
+          :href="`/project/${project?.attributes.slug}`"
           class="flex justify-between items-center"
         >
           <h5

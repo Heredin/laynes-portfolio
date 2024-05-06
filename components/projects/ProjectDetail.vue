@@ -46,7 +46,6 @@
     <div class="mt-8 lg:mt-0 lg:col-span-5 lg:flex">
       <img
         :src="
-          config.public.galleryBaseUrl +
           project[0]?.attributes.featured_image.data.attributes.formats.large
             .url
         "
@@ -59,7 +58,7 @@
   <!-- End block -->
 </template>
 <script setup lang="ts">
-const config = useRuntimeConfig();
+//const config = useRuntimeConfig();
 import type { PropType } from "vue";
 import type { Project } from "~~/types/Project";
 const props = defineProps({

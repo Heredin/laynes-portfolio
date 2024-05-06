@@ -3,7 +3,7 @@ import type { APIResponse } from "~~/types/APIResponse";
 const projects = ref([]);
 
 const searchError = ref(false);
-const searchProject = async (searchInput) => {
+const searchProject = async (searchInput: string) => {
   //console.log("search Text: ", searchInput);
   if (searchInput === "") {
     searchError.value = true;
@@ -57,7 +57,7 @@ projects.value = data.value;
     </div>
     <!-- Projects grid  -->
     <div class="mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
-      <div v-for="project in projects.data" :key="project.id">
+      <div v-for="project in projects?.data" :key="project.id">
         <ProjectsProjectCard :project="project" />
       </div>
     </div>

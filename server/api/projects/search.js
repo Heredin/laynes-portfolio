@@ -3,7 +3,7 @@ export default defineEventHandler(async (event) => {
     const { searchInput } = getQuery(event)
     try {
         const data = await $fetch(
-            `${config.apiBaseUrl}projects?filters[name][$contains]=${searchInput}`,
+            `${config.apiBaseUrl}projects?populate=*&filters[name][$contains]=${searchInput}`,
             {
                 method: "GET",
                 headers: {
